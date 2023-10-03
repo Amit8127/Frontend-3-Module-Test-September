@@ -1,121 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-#display {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
 }
 
-#sec1 {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  color: white;
-  background-color: #000;
+.img{
+   width: 100%;
 }
 
-#sec1 > img {
-  height: 400px;
-  width: 400px;
-  margin-inline: auto;
-  padding: 40px 0px;
+#img{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 20px 0px;
+    margin-inline: auto;
 }
 
-#sec1 > h1 {
-  color: #575a85;
-  padding: 20px;
+h1{
+    color: #575a85;
+    font-weight: bolder;
 }
 
-#sec1 > p {
-  padding: 20px;
-  color: #b8bccc;
-}
-
-#sec2 {
-  flex: 1;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  text-align: center;
-  background: #575a85;
-}
-
-#ipData {
-  color: #b8bccc;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#ipData>span {
+.section1{
+    background-color: #000000;
+    width: 50%;
     color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
 }
 
-#sec2 > button {
-  width: 240px;
-  padding: 10px 20px;
-  margin-inline: auto;
-  border-radius: 10px;
-  color: #b8bccc;
-  font-size: 16px;
-  background-color: transparent;
-  border: 2px solid #b8bccc;
-  cursor: pointer;
+#currip{
+    color: #b8bccc;
 }
 
-#dataPage {
-  background-color: #000;
+#liveip{
+    color: #ffffff;
 }
 
-span {
-    color: #B8BCCC;
-}
-
-table {
-  width: 100%;
-}
-
-td {
-  color: rgba(184, 188, 204, 0.5);
-  font-weight: bold;
-  padding: 10px 0px 0px 0px;
-}
-
-.col1 {
-  color: white;
-  padding: 20px 15px;
-}
-
-.col1 > h1 {
-  color: rgba(184, 188, 204, 0.5);
-  font-size: 20px;
-  font-weight: 700;
-  padding: 20px 0px;
-}
-
-h2 {
+.section2{
+    background-color: #575a85;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding-bottom: 20px;
+    gap: 20px;
+    justify-content: center;
 }
 
-.map {
-    height: 500px;
-    color: #B8BCCC;
-    text-align: center;
-    background: #575A85;
-    padding: 20px 0px 50px 0px;
-}
-
-iframe {
-    border: none;
+#getstart{
+    width: 200px;
+    padding: 10px 50px;
+    background-color: #575a85;
+    color: #b8bccc;
+    border: 1px solid #b8bccc;
     border-radius: 5px;
+    cursor: pointer;
 }

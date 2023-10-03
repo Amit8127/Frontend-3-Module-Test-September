@@ -2,28 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend 3 Module Test- September</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Frontend-3 Module-Test Project</title>
 </head>
 <body>
-    <div id="display">
-        <div id="sec1">
+    <div class="container">
+        <div class="section1">
             <h1>Post Office Application.</h1>
-            <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
-            <img src="postPic.png" alt="DisplayPic">
+            <p style="color: #a1a4b3;">This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+            <div id="img">
+                <img class="img" src="./postPic.png" alt="Pic">
+            </div>
         </div>
-        <div id="sec2">
-            <h1 id="ipData">Your Current IP Address is <span>127.0.01</span></h1>
-            <button id="actBtn">Get Started</button>
+        <div class="section2">
+           <div class="getipaddress">
+                <h2 id="currip">Your current ip address is : <span id="liveip"></span></h2>
+           </div>
+           <button id= "getstart">Get Started</button>
         </div>
     </div>
 
-    <div id="dataPage">
-
-    </div>
-
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+    <script src="./script.js"></script>
     
-    <script src="script.js"></script>
 </body>
 </html>
