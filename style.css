@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#sec1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  background-color: #000;
+}
+
+#sec1 > img {
+  height: 400px;
+  width: 400px;
+  margin-inline: auto;
+  padding: 40px 0px;
+}
+
+#sec1 > h1 {
+  color: #575a85;
+  padding: 20px;
+}
+
+#sec1 > p {
+  padding: 20px;
+  color: #b8bccc;
+}
+
+#sec2 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  background: #575a85;
+}
+
+#ipData {
+  color: #b8bccc;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#ipData>span {
+    color: white;
+}
+
+#sec2 > button {
+  width: 240px;
+  padding: 10px 20px;
+  margin-inline: auto;
+  border-radius: 10px;
+  color: #b8bccc;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #b8bccc;
+  cursor: pointer;
+}
+
+#dataPage {
+  background-color: #000;
+}
+
+span {
+    color: #B8BCCC;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  color: rgba(184, 188, 204, 0.5);
+  font-weight: bold;
+  padding: 10px 0px 0px 0px;
+}
+
+.col1 {
+  color: white;
+  padding: 20px 15px;
+}
+
+.col1 > h1 {
+  color: rgba(184, 188, 204, 0.5);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.map {
+    height: 500px;
+    color: #B8BCCC;
+    text-align: center;
+    background: #575A85;
+    padding: 20px 0px 50px 0px;
+}
+
+iframe {
+    border: none;
+    border-radius: 5px;
+}
